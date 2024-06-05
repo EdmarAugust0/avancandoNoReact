@@ -1,10 +1,12 @@
 import './App.css'
 
+import UserDetails from './components/Result/UserDetails'
+
 function App() {
 
   return (
     <>
-      <h1>Avançando no React!</h1>
+      <UserDetails />
     </>
   )
 }
